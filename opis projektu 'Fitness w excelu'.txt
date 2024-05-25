@@ -1,0 +1,40 @@
+'Fitness w excelu' - projekt, który miał za zadanie poprawić moje umiejętności obsługi excela, jak i polepszyć sylwetkę.
+Został on zapoczątkowany w drugim tygodniu roku, natomiast zakończony został w tygodniu 15.
+
+Arkusz 'Dane z siłowni'
+Opis co znajduje się w projekcie, oraz jakie formuły został wykorzystane, aby zautomatyzować proces uzupełniania danych w pliku:
+Ćwiczenia - jest to miejsce pod, którym wpisywana jest nazwa ćwiczenia
+Data - dokładna data (dd.mm.rrrr.) wykonywania ćwiczenia 
+Serie - ilość wykonywanych serii danego ćwiczenia
+Powtórzenia - ilość wykonywanych powtórzeń w serii
+Ciężar kg - jest to podnoszony ciężar wyrażony w kg* (*jedynym wyjątkiem jest "Spacer", oraz "cardio", są one wyrażone w minutach)
+Partia ciała - jest to zgrupowanie ćwiczeń na partie ciała, aby ułatwić analizę, pole uzupełnia się samodzielnie, wykorzystana jest formuła warunki
+Intensywność dzienna - jest to iloraz serii*powtórzeń*ciężaru, wynik podaje nam wynik, który traktowałem jako wysiłek włożony podczas ćwiczenia
+Intensywność - jest to suma intensywności dziennej dla danego ćwiczenia - formuła, która została wykorzystana to suma.warunków, gdzie kryteria to data ćwiczenia, oraz nazwa ćwiczenia, natomiast sumowana wartość to intensywność dzienna
+Intensywność dzienna w % - jest to intensywność dzienna wyrażona w %, w odniesieniu do intensywności, przez co mogłem zobaczyć jaki wysiłek wkładałem w daną serie, w odniesieniu do dnia.
+Max. total - jest to maksymalny ciężar jaki został wykorzystany w danym ćwiczeniu - formuła, która została wykorzystana jest to maks.warunków, gdzie kryteria to nazwa ćwiczenia, wyszukiwany w 'Ciężar kg'
+% ciężaru do max total - jest to informacja, która mówi jaki ciężar został wykorzystany w ćwiczeniu w porównaniu do rekordu ciężaru, wyrażone w %
+Waga - jest to waga mierzona raz w tygodniu
+Numer tygodnia - numer tygodnia - formuła wykorzystana to num.tyg, określa ona numer tygodnia z daty
+
+Arkusz 'Tabele przestawne' w opisie posługuje się nazwami tabel przestawnych:
+5_najczesciej wykonywanych ćwiczeń - jest to tabela, która przedstawia 5 najczęściej wykonywanych ćwiczeń - jest to zbiór 5 najczęściej wpisywanych ćwiczeń
+5_najczesciej wykonywanych serii - jest to tabela, która przedstawia 5 najczęściej wykonywanych serii - jest to zbiór 5 najczęściej wpisywanych serii
+Tydzien_waga - tabela, która przedstawia tydzień, oraz wage
+Max_cwiczen_kg - tabela, która przedstawia rekordy pod względem podniesionego ciężaru, utworzony został fragmentator z podziałem na partie ciała
+Intensywnosc_dzienna - tabela przestawna, w której jest podana suma intensywności dziennej, dla poszczególnych partii ciała
+W arkuszu znajduje się spis wszystkich ćwiczeń z podziałem na części ciała
+
+Arkusz 'Dashboard'
+wykres 'Maksymalny ciężar według ćwiczeń w kilogramach' wykorzystałem wykres słupkowy, ponieważ znajduje się na nim dużo informacji i taka forma jest najbardziej czytelna
+największy wynik z wykresu to 70kg, przy ćwiczeniu wyciskanie sztangi na prostej ławce, zbliżone wartości widnieją również przy partiach nogi, plecy.
+wykres 'waga względem tygodnii roku'wykres liniowy, z zaznaczonymi wartościami
+z wykresu możemy wyczytać, że waga utrzymywała podobne wartości do tygodnia 11, później nastąpił spadek o prawie 2 kg na tydzień
+wykres '5 najpopularniejszych ćwiczeń'wykorzystałem wykres kolumnowy 
+wykres przedstawia liczbę najczęściej wykonywanych ćwiczeń, trening oznacza 1 wykonany trening, spacer występuje więcej razy niż trening, ponieważ zdarzały się dni, w których spacer był wykonywany przed i po treningu siłowym
+ 
+
+
+
+
+
